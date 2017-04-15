@@ -1,0 +1,35 @@
+.bloque {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #555555;
+}
+
+.bloque .trabajo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.bloque .trabajo > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+    border-right: 1px solid white;
+    color: #f9f9f9;
+    margin: 1%;
+    text-align: center;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.bloque .trabajo > p {
+    width: 100%;
+    color: #f9f9f9;
+    margin: 10px;
+}

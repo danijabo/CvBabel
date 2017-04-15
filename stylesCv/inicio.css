@@ -1,0 +1,41 @@
+#inicio {
+    /*background-image: url(../assetsCv/teclado2.jpg);
+    background-size: cover;*/
+    background-color: green;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 140px;
+    font-size: 1.1em;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 1%;
+}
+
+#inicio #foto {
+    height: 130px;
+    width: 130px;
+    border-radius: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid white;
+    object-fit: cover;
+    object-position: 100% 25%;
+    transition: transform 0.2s;
+}
+
+#inicio img:hover {
+    transform: scale(1.10);
+}
+
+#inicio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,110 @@
+form {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+form button[type="submit"] {
+    margin: 0 auto;
+    display: block;
+}
+
+form label {
+    font-size: 18px;
+    width: 150px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+form input,
+select {
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+}
+
+form textarea {
+    width: 250px;
+    font-size: 20px;
+}
+
+.form-input,
+.form-radio,
+.form-select {
+    margin: 15px;
+}
+
+.form-radio label {
+    width: initial;
+}
+
+.form-radio input {
+    margin-right: 20px;
+    height: initial;
+    width: 50px;
+}
+
+.form-input input,
+.form-input textarea {
+    transition: border-color 0.3s;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+}
+
+.form-input input:focus,
+.form-input textarea:focus,
+.form-input input:invalid:focus,
+.form-input textarea:invalid:focus,
+.form-select select:focus,
+.form-select select:invalid:focus {
+    outline: none;
+    border-color: #999;
+}
+
+.form-input input:invalid,
+.form-input textarea:invalid,
+.form-select select:invalid {
+    border-color: red;
+}
+
+.form-input input:valid,
+.form-input textarea:valid,
+.form-select select:valid {
+    border-color: green;
+}
+
+.button {
+    transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    will-change: border-color, color;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid #ddd;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.button:hover,
+.button:focus {
+    transform: sacale(1.2);
+    border-color: #ccc;
+    outline: none;
+}
+
+.button:active {
+    transform: scale(0.9);
+    color: white;
+    background-color: #999;
+}
+
+.button:disabled {
+    color: #ddd;
+    cursor: default;
+}
+
+.button:hover:disabled {
+    border-color: #ddd;
+}

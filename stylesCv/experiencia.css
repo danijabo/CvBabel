@@ -1,0 +1,46 @@
+#experiencia {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#experiencia article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    transition: transform 0.3s;
+}
+
+#experiencia article:hover {
+    transform: scale(1.05);
+}
+
+#experiencia article:focus {
+    background-color: grey;
+}
+
+#experiencia ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    width: 100%;
+}
+
+#experiencia li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#experiencia span {
+    width: 100px;
+}
+
+#experiencia img {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
